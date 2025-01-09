@@ -106,6 +106,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B72C4C02D2FD280005F81DD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8B72C4C12D2FD280005F81DD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		8B72C4C22D2FD280005F81DD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		8B72C4C32D2FD280005F81DD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = pl; path = pl.lproj/Main.html; sourceTree = "<group>"; };
+		8B72C4C42D2FD660005F81DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8BD2303E2D2FC8F400EBDB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
 		8BD2303F2D2FC8F400EBDB47 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		8BD230402D2FC8F400EBDB47 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -118,14 +123,14 @@
 		8BD2304F2D2FC8F500EBDB47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8BD230522D2FC8F500EBDB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BD230552D2FC8F500EBDB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BD230572D2FC8F500EBDB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD230572D2FC8F500EBDB47 /* Librus Pro do Librusanfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Librus Pro do Librusanfo.plist"; sourceTree = "<group>"; };
 		8BD2305C2D2FC8F500EBDB47 /* Lirbus Pro do Librusa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lirbus Pro do Librusa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD2305E2D2FC8F500EBDB47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD230612D2FC8F500EBDB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BD230632D2FC8F500EBDB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BD230642D2FC8F500EBDB47 /* Lirbus Pro do Librusa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lirbus Pro do Librusa.entitlements"; sourceTree = "<group>"; };
+		8BD230632D2FC8F500EBDB47 /* Librus Pro do Librusanfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Librus Pro do Librusanfo.plist"; sourceTree = "<group>"; };
+		8BD230642D2FC8F500EBDB47 /* Librus Pro do Librusa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Librus Pro do Librusa.entitlements"; sourceTree = "<group>"; };
 		8BD230692D2FC8F500EBDB47 /* Lirbus Pro do Librusa Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lirbus Pro do Librusa Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BD2306E2D2FC8F500EBDB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD2306E2D2FC8F500EBDB47 /* Librus Pro do Librusanfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Librus Pro do Librusanfo.plist"; sourceTree = "<group>"; };
 		8BD230732D2FC8F500EBDB47 /* Lirbus Pro do Librusa Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lirbus Pro do Librusa Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD230782D2FC8F500EBDB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD230792D2FC8F500EBDB47 /* Lirbus Pro do Librusa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lirbus Pro do Librusa.entitlements"; sourceTree = "<group>"; };
@@ -189,6 +194,7 @@
 				8BD2306D2D2FC8F500EBDB47 /* iOS (Extension) */,
 				8BD230772D2FC8F500EBDB47 /* macOS (Extension) */,
 				8BD2304B2D2FC8F500EBDB47 /* Products */,
+				8B72C4C42D2FD660005F81DD /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,7 +246,7 @@
 				8BD2304F2D2FC8F500EBDB47 /* SceneDelegate.swift */,
 				8BD230512D2FC8F500EBDB47 /* LaunchScreen.storyboard */,
 				8BD230542D2FC8F500EBDB47 /* Main.storyboard */,
-				8BD230572D2FC8F500EBDB47 /* Info.plist */,
+				8BD230572D2FC8F500EBDB47 /* Librus Pro do Librusanfo.plist */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -250,8 +256,8 @@
 			children = (
 				8BD2305E2D2FC8F500EBDB47 /* AppDelegate.swift */,
 				8BD230602D2FC8F500EBDB47 /* Main.storyboard */,
-				8BD230632D2FC8F500EBDB47 /* Info.plist */,
-				8BD230642D2FC8F500EBDB47 /* Lirbus Pro do Librusa.entitlements */,
+				8BD230632D2FC8F500EBDB47 /* Librus Pro do Librusanfo.plist */,
+				8BD230642D2FC8F500EBDB47 /* Librus Pro do Librusa.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -259,7 +265,7 @@
 		8BD2306D2D2FC8F500EBDB47 /* iOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				8BD2306E2D2FC8F500EBDB47 /* Info.plist */,
+				8BD2306E2D2FC8F500EBDB47 /* Librus Pro do Librusanfo.plist */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -404,12 +410,13 @@
 					};
 				};
 			};
-			buildConfigurationList = 8BD2303A2D2FC8F400EBDB47 /* Build configuration list for PBXProject "Lirbus Pro do Librusa" */;
+			buildConfigurationList = 8BD2303A2D2FC8F400EBDB47 /* Build configuration list for PBXProject "Librus Pro do Librusa" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 8BD230362D2FC8F400EBDB47;
 			minimizedProjectReferenceProxies = 1;
@@ -558,6 +565,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BD2303E2D2FC8F400EBDB47 /* Base */,
+				8B72C4C32D2FD280005F81DD /* pl */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
@@ -566,6 +574,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BD230522D2FC8F500EBDB47 /* Base */,
+				8B72C4C02D2FD280005F81DD /* pl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -574,6 +583,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BD230552D2FC8F500EBDB47 /* Base */,
+				8B72C4C12D2FD280005F81DD /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -582,6 +592,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BD230612D2FC8F500EBDB47 /* Base */,
+				8B72C4C22D2FD280005F81DD /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -594,6 +605,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -655,6 +667,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -710,8 +723,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M784D869U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa Extension";
+				INFOPLIST_FILE = "iOS (Extension)/Librus Pro do Librusanfo.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -741,8 +754,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M784D869U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa Extension";
+				INFOPLIST_FILE = "iOS (Extension)/Librus Pro do Librusanfo.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -775,8 +788,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M784D869U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa";
+				INFOPLIST_FILE = "iOS (App)/Librus Pro do Librusanfo.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -813,8 +826,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M784D869U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa";
+				INFOPLIST_FILE = "iOS (App)/Librus Pro do Librusanfo.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -853,7 +866,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -885,7 +898,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -912,14 +925,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Lirbus Pro do Librusa.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Librus Pro do Librusa.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M784D869U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa";
+				INFOPLIST_FILE = "macOS (App)/Librus Pro do Librusanfo.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -947,14 +961,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Lirbus Pro do Librusa.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Librus Pro do Librusa.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M784D869U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lirbus Pro do Librusa";
+				INFOPLIST_FILE = "macOS (App)/Librus Pro do Librusanfo.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -980,7 +995,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BD2303A2D2FC8F400EBDB47 /* Build configuration list for PBXProject "Lirbus Pro do Librusa" */ = {
+		8BD2303A2D2FC8F400EBDB47 /* Build configuration list for PBXProject "Librus Pro do Librusa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BD230882D2FC8F500EBDB47 /* Debug */,
