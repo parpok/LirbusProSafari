@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibrusPro | Lista zmian</title>
+    <style>
+body
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: #363636;
+    width: 50vw;
+    margin: 2em auto;
+}
+@media screen and (max-width: 1200px) {
+    body {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    body {
+        width: 90vw;
+    }
+}
+.logo-container {
+	text-align: center;
+	display: flex;
+	margin: 5px 0 5px 0;
+	align-items: center;
+	justify-content: center;
+}
+.logo {
+	width: 65px;
+	height: 65px;
+	margin-right: 10px;
+} 
+.title
+{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 1.5rem;
+	padding: 0px 10px;
+	color: #aa5180;
+}
+.sub-title
+{
+	font-size: .9rem;
+	padding: 0px 5px;
+	color: #8ca5c4;
+}
+.author {
+	color: #8ca5c4;
+	font-size: .95rem;
+}
+.quote {
+	text-align: center;
+	font-size: 1.1rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 10px 0 5px 0;
+	color: #cccccc;
+	font-style: italic;
+}
+.discord-link {
+    padding: .3em;
+    margin-bottom: .3em;
+    display: inline-block;
+	color: #7289DA;
+}
+.discord-link:hover {
+	color: #ffffff;
+	transition: color 0.3s;
+}
+.copyright {
+    font-style: italic;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: 1em auto 0 auto;
+    padding: 1em;
+    width: 90%;
+}
+.icon {
+	display: inline-block;
+	margin: 3px 0 0 3px;
+	height: 37px;
+	width: 37px;
+	background-size: cover !important;
+    background: url("img/icon.png");
+}
+.footer-text {
+    margin-left: 5px;
+	display: inline-block;
+	color: #999999;
+	cursor: vertical-text;
+}
+.link {
+	color: #4276c3;
+	transition: color 0.1s;
+}
+.link:hover {
+	text-decoration: underline;
+	color: #9eb0f1;
+}
+.changelog {
+    background: #e7e7e7;
+    width: 90%;
+    padding: 1em;
+    margin: 0 auto 2em auto;
+    box-shadow: 3px 3px 10px #141414;
+    border-radius: 5px;
+}
+.changelog:last-child {
+    margin-bottom: 0;
+}
+.version {
+    display: inline-block;
+    margin-right: .5em;
+    margin-left: .5em;
+    font-size: 1.5rem;
+    color: #8d2f61;
+    font-weight: bold;
+}
+.version::before {
+    content: 'v';
+}
+.version-date {
+    display: inline-block;
+    color: #777777;
+}
+.changelog:first-child > .version-date::after {
+    color: #137413;
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    content: "Najnowsza";
+}
+.changes > div::before {
+    content: "» ";
+    padding: .2em;
+}
+.changes > div {
+    font-size: .95rem;
+}
+.changes > div b {
+    color: #aa5180;
+}
+.header {
+    text-align: center;
+    border-bottom: 1px solid #272727;
+    border-top: 1px solid #272727;
+    color: #ececec;
+    padding: .7em 0;
+}
+.credit {
+    font-size: .8rem;
+}
+</style>
+</head>
+<body>
+    <div class="logo-container">
+		<img src="img/icon.png" class="logo">
+		<div class="title">LibrusPro<div class="sub-title">Made with ❤️ by:<div class="author">Maks&nbsp;Kowalski</div></div></div>
+	</div>
+	<div class="quote">Ulepsz Librusa już dziś!</div>
+    <h2 class="header">Co nowego?</h2>
+    <div class="container">
+        <div class="changelog">
+            <div class="version">4.0.2</div><div class="version-date">12.09.2024 r.</div>
+            <div class="changes">
+                <div>Dodano modernizację dymków <b>prac domowych</b>.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">4.0.1</div><div class="version-date">29.04.2024 r.</div>
+            <div class="changes">
+                <div>Zmigrowano wtyczkę na <b>manifest wersji 3</b>, aby pozostała dostępna w sklepie.</div>
+                <div>Zaktualizowano <b>link do sklepu</b> w stopce.</div>
+                <div>Poprawiono czytelność <b>jasnego motywu</b>.</div>
+                <div>Dodano modernizację <b>wycieczek i wywiadówek</b> w terminarzu.</div>
+                <div>Dodano modernizację dymków <b>ocen punktowych</b>.</div>
+                <div>Dodano wyświetlanie <b>daty dodania</b> w widoku szczegółów zachowania.</div>
+                <div>Naprawiono kolorowanie <b>ujemnych punktów z zachowania</b> w dymkach.</div>
+                <div>Naprawiono kolorowanie niektórych <b>wierszy w tabelach</b> ocen.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.4.0</div><div class="version-date">07.09.2023 r.</div>
+            <div class="changes">
+                <div>Dodano <b>tryb Incognito</b> służący do bezpiecznego robienia zrzutów ekranu. Jest możliwy do włączenia w menu ustawień rozszerzenia, ukrywa dane personalne oraz podmienia większość nazwisk nauczycieli.</div>
+                <div>Naprawiono pojawianie się <b>'undefined'</b> w proponowanym zachowaniu.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.3.2</div><div class="version-date">15.12.2022 r.</div>
+            <div class="changes">
+                <div>Dodano obsługę <b>przesunięć</b> w planie lekcji w terminarzu.</div>
+                <div>Naprawiono <b>przewijanie strony</b> po zamknięciu okna Tymczasowej modyfikacji ocen.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.3.1</div><div class="version-date">06.10.2022 r.</div>
+            <div class="changes">
+                <div>Dodano <b>przycisk strony głównej</b> w widoku Planu Lekcji, którym pozwala na powrót do niej po utracie sesji w tym widoku.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.3.0</div><div class="version-date">10.06.2022 r.</div>
+            <div class="changes">
+                <div>Dodano <b>schemat wiadomości</b>, którego można szybko wstawić jako treść oraz dowolnie edytować.</div>
+                <div>Wyłączono tymczasowo wyświetlanie <b>changeloga</b> po aktualizacji rozszerzenia.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.2.4</div><div class="version-date">07.06.2022 r.</div>
+            <div class="changes">
+                <div>Dodano <b>zapisywanie ostatnio użytego koloru z palety</b>, podczas dodawania nowych wydarzeń w terminarzu.</div>
+                <div>Dodano <b>przycisk otwierający changelog</b> w menu ustawień rozszerzenia.</div>
+                <div>Dodano <b>pomoc dla kalkulatora jedynek</b>.</div>
+                <div>Zmieniono <b>liczenie możliwych jedynek</b> dla II semestru. Teraz wyświetlana jest ilość dla wybranej średniej rocznej (nie II-semestralnej).</div>
+                <div>Naprawiono <b>ścinanie słów</b> w opisie wydarzeń w terminarzu.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.2.3</div><div class="version-date">15.05.2022 r.</div>
+            <div class="changes">
+                <div>Dodano <b>modernizację dymków</b> ocen z zachowania.</div>
+                <div>Dodano automatyczne <b>ukrywanie wyboru języka</b>.</div>
+                <div>Naprawiono <b>przyciski poza zasięgiem</b> w widoku dodawania/edycji wydarzeń w terminarzu.</div>
+                <div>Naprawiono pobieranie <b>nieposortowanych wpisów frekwencji</b>.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.2.2</div><div class="version-date">01.04.2022 r.</div>
+            <div class="changes">
+                <div>Naprawiono działanie <b>wtyczki</b> oraz jej dostępność dla przeglądarki Firefox.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.2.1</div><div class="version-date">30.03.2022 r.</div>
+            <div class="changes">
+                <div>Dostosowano rozszerzenie do <b>zasad przeglądu</b> rozszerzeń dla przeglądarki Firefox.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.2.0</div><div class="version-date">28.03.2022 r.</div>
+            <div class="changes">
+                <div>Dodano możliwość <b>pobrania wszystkich wpisów frekwencji</b> (m.in. obecności) w zakładce 'Frekwencja'.</div>
+                <div>Naprawiono <b>wczytywanie ciemnego motywu</b>.</div>
+                <div>Naprawiono <b>dymki zagrożeń</b>.</div>
+                <div>Zoptymalizowano pobieranie <b>wykazu uczęszczania</b> (procentów obecności).</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.1.4</div><div class="version-date">22.03.2022 r.</div>
+            <div class="changes">
+                <div>Dodano wyświetlanie <b>daty dodania</b> w widoku szczegółów frekwencji.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.1.3</div><div class="version-date">05.03.2022 r.</div>
+            <div class="changes">
+                <div>Naprawiono datę dodania w <b>modernizacji dymków</b>.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.1.2</div><div class="version-date">05.03.2022 r.</div>
+            <div class="changes">
+                <div>Dodano <b>modernizację dymków</b> w widoku planu lekcji.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.1.1</div><div class="version-date">03.03.2022 r.</div>
+            <div class="changes">
+                <div>Naprawiono niepoprawne <b>liczenie średnich</b> w bardzo szczególnych przypadkach.</div>
+                <div>Dodano wyświetlanie <b>daty dodania</b> także ocen kształtujących.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.1.0</div><div class="version-date">18.02.2022 r.</div>
+            <div class="changes">
+                <div>Dodano wyświetlanie <b>daty dodania oceny</b> w widoku jej szczegółów (po kliknięciu na nią).</div>
+                <div>Dodano opcję <b>ukrywania ocen i frekwencji z I semestru</b> w menu rozszerzenia (domyślnie wyłączona).</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.0.3</div><div class="version-date">29.01.2022 r.</div>
+            <div class="changes">
+                <div>Dodano <b>modernizację dymków</b> w widoku zrealizowanych lekcji.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.0.2</div><div class="version-date">24.01.2022 r.</div>
+            <div class="changes">
+                <div><b>Naprawiono</b> wyświetlanie przycisku do dodawania nowych wydarzeń w terminarzu przy wyłączonym ciemnym motywie.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.0.1</div><div class="version-date">18.01.2022 r.</div>
+            <div class="changes">
+                <div><b>Naprawiono</b> rozszerzanie się komórek w terminarzu, gdy dodane opisy zawierały zbyt długie wyrazy.</div>
+                <div><b>Wyłączono</b> wyświetlanie changeloga po najmniejszych aktualizacjach, takich jak ta.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">3.0.0</div><div class="version-date">15.01.2022 r.</div>
+            <div class="changes">
+                <div><b>Przepisano dużą część kodu</b>. W przypadku jakiegokolwiek jego nieprawidłowego działania, proszę o taką informację na oficjalnym Discordzie! (link w stopce)</div>
+                <div><b>Odświeżono menu dodawania nowych wydarzeń</b> w terminarzu oraz <b>tymczasowej modyfikacji ocen</b> i dodano możliwość zamykania ich po kliknięciu poza nimi.</div>
+                <div>Dodano w oknie dodawania nowych ocen cząstkowych <b>kalkulator ilości jedynek</b>, które można jeszcze otrzymać, aby średnia była wyższa od tej ustalonej w ustawieniach rozszerzenia.</div>
+                <div>Dodano w menu tymczasowej modyfikacji ocen dostosowanie <b>kategorii oceny (koloru) i jej liczenia do średniej</b></div>
+                <div><b>Wyłączono funkcję podglądania komentarzy</b> innych w związku z jej naprawieniem przez firmę Librus.</div>
+                <div>Dodano <b>odświeżanie sesji</b> odpowiadającej za pobieranie wykazu frekwencji.</div>
+                <div><b>Naprawiono</b> działanie rozszerzenia na podstronach dziennika z parametrami w adresie.</div>
+                <div><b>Naprawiono</b> brak odświeżania strony po dodaniu nowego wydarzenia w terminarzu.</div>
+                <div><b>Wyłączono</b> możliwość korzystania z tymczasowej modyfikacji ocen, gdy liczenie średnich nie jest włączone w&nbsp;opcjach rozszerzenia.</div>
+                <div><b>Dodano</b> możliwość edycji ocen nie liczonych do średniej.</div>
+                <div>Zmodernizowano <b>historię logowań</b>.</div>
+                <div>Naprawiono <b>wyświetlanie dymków</b> w przeglądarce Firefox.</div>
+                <div>Przywrócono <b>przycisk Ankiety</b> i przeniesiono go do zakładki 'Organizacja'.</div>
+                <div>Przeniesiono <b>przycisk Plan lekcji</b> do głównego menu.</div>
+                <div>Dodano <b>ukrywanie sobót i niedzieli</b> w planie lekcji, jeżeli wszystkie są puste .</div>
+                <div>Zmieniono <b>wygląd obrazków/gifów</b> w terminarzu.</div>
+                <div>Zmieniono <b>system pobierania planu lekcji</b> do terminarza, teraz każda komórka pokazuje jej <b>aktualny plan dla danego dnia</b>, a nie z bieżącego tygodnia.</div>
+                <div>Dodano możliwość <b>wyłączenia dodawania planu lekcji</b> do terminarza.</div>
+                <div>Dodano możliwość <b>wyłączenia mrugania zagrożeń</b>.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.12.0</div><div class="version-date">14.12.2021 r.</div>
+            <div class="changes">
+                <div>Dodano <b>świąteczny banner</b>. Poczuj magię świąt razem z LibrusPro!</div>
+                <div><b>Naprawiono</b> funkcjonowanie rozszerzenia w szkołach z wyłączonym mruganiem zagrożeń.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.11.1</div><div class="version-date">30.11.2021 r.</div>
+            <div class="changes">
+                <div>Naprawiono wyświetlanie <b>menu ustawień rozszerzenia</b> w przeglądarce Firefox.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.11.0</div><div class="version-date">30.11.2021 r.</div>
+            <div class="changes">
+                <div>Odświeżono popup, czyli <b>menu ustawień rozszerzenia</b>. Opcje zostały pogrupowane w karty, a jego nowy wygląd nie powinien już straszyć.</div>
+                <div>Dodano możliwość ukrywania <b>nieobecności nauczycieli</b> oraz <b>tymczasowej modyfikacji ocen</b>. Są one możliwe do włączenia w menu rozszerzenia.</div>
+                <div>Nadano funkcjonalność polu <i>"Jesteś zalogowany jako"</i>, które po kliknięciu otwiera <b>zbiór wszystkich danych</b>, które są Tobie udostępniane dzięki RODO.</div>
+                <div>Naprawiono wyświetlanie <b>emotikonów</b>.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.10.0</div><div class="version-date">07.11.2021 r.</div>
+            <div class="changes">
+                <div>Dodano możliwość <b>podejrzenia komentarzy innych</b> w przypadku seryjnego  wpisywania ocen. Przycisk wraz z&nbsp;dokładniejszym opisem i przykładem działania tej funkcji znajduje się w widoku szczegółów po kliknięciu na daną ocenę.</div>
+                <div>Dodano przyciemnianie <b>dni wolnych</b> w terminarzu.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.9.1</div><div class="version-date">02.11.2021 r.</div>
+            <div class="changes">
+                <div>Wymuszono otwieranie podglądu prac domowych w <b>nowej karcie</b>, a nie oknie.</div>
+                <div>Wprowadzono wizualne poprawki w widoku <b>prac domowych</b>.</div>
+                <div>Wyeksponowano przycisk <b>wykazu uczęszczania</b> oraz dodano podświetlanie frekwencji mniejszej niż <b>50%</b>.</div>
+                <div>Zaktualizowano <b>opisy</b> rozszerzenia na stronach pobierania.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.9.0</div><div class="version-date">19.10.2021 r.</div>
+            <div class="changes">
+                <div>Dodano możliwość wyświetlenia wykazu uczęszczania, czyli informacji dot. <b>procentowej obecności</b> na danych zajęciach.</div>
+                <div>Dodano <b>changelog</b>.</div>
+                <div>Dodano <b>modernizację dymków frekwencji oraz wydarzeń</b> w terminarzu.</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.8.1</div><div class="version-date">17.10.2021 r.</div>
+            <div class="changes">
+                <div>Dodano <b>możliwość</b> tymczasowego, lokalnego <b>dodawania ocen i edycji istniejących</b>, aby np. sprawdzić jaka byłaby średnia wtedy średnia.</div>
+                <div>Dodano <b>modernizację dymków</b> po najechaniu na oceny (możliwa do wyłączenia w menu rozszerzenia).</div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="version">2.7.0</div><div class="version-date">21.09.2021 r.</div>
+            <div class="changes">
+                <div><b>Zoptymalizowano</b> system liczenia średnich.</div>
+                <div>Dodano <b>ekran ładowania</b>.</div>
+                <div>Dodano <b>informację, gdy wyliczona średnia przez rozszerzenie różni się</b> od faktycznej (w przypadku, gdy podgląd średnich jest włączony w danej szkole). [Wyłączone w przypadku "Ukrywania jedynek"]</div>
+                <div>Dodano <b>możliwość wyboru przedmiotu z listy</b>, podczas dodawania swojego wydarzenia w terminarzu (zamiast jego ręcznego wpisywania).</div>
+            </div>
+        </div>
+    </div>
+    <h2 class="header">Masz jakieś pomysły, błędy, pytania? » <a href="https://discord.gg/e9EkVEvsDr" target="_blank" class="link">Discord</a></h2>
+    <div class="footer">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="icon"></a>
+        <div class="footer-text">
+            <span style="color: #96c5b4;">» Podoba się wtyczka? <a href="https://chromewebstore.google.com/detail/libruspro-rozszerzenie-do/hoceldjnkcboafconokadmmbijbegdkf/reviews" target="_blank" class="link">Zostaw 5<span style="font-size: .7rem;">⭐</span></a></span>
+            <div style="color: #94cae4;">» Wbijaj na oficjalny <a href="https://discord.gg/e9EkVEvsDr" target="_blank" class="link">Discord</a>!</div>
+            
+        <div>» <span style="font-style: italic">LibrusPro © 2021 Maks Kowalski</span></div>
+    </div>
+</body>
+</html>
