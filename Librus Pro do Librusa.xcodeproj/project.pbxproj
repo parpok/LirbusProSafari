@@ -879,7 +879,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.parpok.LibrusProSafari;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.parpok.LibrusProSafari.MacSafariExtention;
 				PRODUCT_NAME = "Lirbus Pro do Librusa Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -911,7 +911,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.parpok.LibrusProSafari;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.parpok.LibrusProSafari.MacSafariExtention;
 				PRODUCT_NAME = "Lirbus Pro do Librusa Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -934,6 +934,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Librus Pro do Librusanfo.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -970,6 +971,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Librus Pro do Librusanfo.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Librus Pro do Librusa";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
